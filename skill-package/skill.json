@@ -1,0 +1,116 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Try to match Symbl.ai's sentiment measurements to specific goals by making positive, negative or statements. Match closer, score more points.",
+          "examplePhrases": [
+            "Alexa, play Simple Sentiments",
+            "Alexa, ask Simple Sentiments to start game",
+            "Alexa, ask Simple Sentiments for practice"
+          ],
+          "keywords": [
+            "sentiments",
+            "emotion",
+            "mood",
+            "linguistics",
+            "game",
+            "understanding",
+            "sentiment"
+          ],
+          "name": "Simple Sentiments",
+          "description": "In Simple Sentiments you will try to match Symbl.ai's sentiment measurements to specific goals, by making positive, negative or neutral statements. The closer you match the goals, the higher your score. You may not always agree with Symbl.ai's measurements. That's OK! And if you want to consider it a toy instead of a game, just ignore the score. That's OK, too!\n\nIn a practice round, you can get an idea of how Symbl.ai rates your statements as positive, negative or neutral, assigning a polarity score between -100 and 100.\n\nIn the first round of game play, you will be asked to make a statement to match each of those sentiments.\nIn round one, points are awarded based on how many attempts it takes to match the sentiment.\n\nIn the second round, you will be asked to match both the predominant sentiment (e.g. POSITIVE) as well as the degree of that sentiment that Symbl.ai measures (e.g. POSITIVE @ 83).\nIn round two, points are awarded based on how close you get to the target, as well as a degree of difficulty (some targets are harder).\n\nYour high score is saved, so in subsequent visits, you can try to top your previous high score.\n\n(Icon courtesy of Vecteezy.com)",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        },
+        "en-IN": {
+          "summary": "Try to match Symbl.ai's sentiment measurements to specific goals by making positive, negative or statements. Match closer, score more points.",
+          "examplePhrases": [
+            "Alexa, play Simple Sentiments",
+            "Alexa, ask Simple Sentiments to start game",
+            "Alexa, ask Simple Sentiments for practice"
+          ],
+          "keywords": [
+            "sentiments",
+            "emotion",
+            "mood",
+            "linguistics",
+            "game",
+            "understanding",
+            "sentiment"
+          ],
+          "name": "Simple Sentiments",
+          "description": "In Simple Sentiments you will try to match Symbl.ai's sentiment measurements to specific goals, by making positive, negative or neutral statements. The closer you match the goals, the higher your score. You may not always agree with Symbl.ai's measurements. That's OK! And if you want to consider it a toy instead of a game, just ignore the score. That's OK, too!\n\nIn a practice round, you can get an idea of how Symbl.ai rates your statements as positive, negative or neutral, assigning a polarity score between -100 and 100.\n\nIn the first round of game play, you will be asked to make a statement to match each of those sentiments.\nIn round one, points are awarded based on how many attempts it takes to match the sentiment.\n\nIn the second round, you will be asked to match both the predominant sentiment (e.g. POSITIVE) as well as the degree of that sentiment that Symbl.ai measures (e.g. POSITIVE @ 83).\nIn round two, points are awarded based on how close you get to the target, as well as a degree of difficulty (some targets are harder).\n\nYour high score is saved, so in subsequent visits, you can try to top your previous high score.\n\n(Icon courtesy of Vecteezy.com)",
+          "smallIconUri": "file://assets/images/en-IN_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-IN_largeIconUri.png"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "This skill is based on the certified skill 'Sentiment Match', but uses Expert.ai instead of Amazon Comprehend to provide the sentiment analysis. It is a simpler version, as it only evaluates NEGATIVE and POSITIVE sentiments, and only scales the predominent sentiment rather than factored values for four possibilities as in Amazon Comprehend. Run through the practice test and the regular test. Should work on both display and headless devices. Saves high score, so subsequent sessions should report on that.  PLEASE NOTE: This is for a hackathon submission with a March 31 deadline, so certification prior to that would be appreciated. Thanks! ",
+      "category": "EDUCATIONAL_GAMES",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": ""
+        },
+        "interfaces": [
+          {
+            "supportedViewports": [
+              {
+                "minHeight": 480,
+                "mode": "HUB",
+                "shape": "ROUND",
+                "maxHeight": 480,
+                "minWidth": 480,
+                "maxWidth": 480
+              },
+              {
+                "minHeight": 600,
+                "mode": "HUB",
+                "shape": "RECTANGLE",
+                "maxHeight": 600,
+                "minWidth": 1024,
+                "maxWidth": 1024
+              },
+              {
+                "minHeight": 800,
+                "mode": "HUB",
+                "shape": "RECTANGLE",
+                "maxHeight": 800,
+                "minWidth": 1280,
+                "maxWidth": 1280
+              },
+              {
+                "minHeight": 540,
+                "mode": "TV",
+                "shape": "RECTANGLE",
+                "maxHeight": 540,
+                "minWidth": 960,
+                "maxWidth": 960
+              },
+              {
+                "minHeight": 480,
+                "mode": "HUB",
+                "shape": "RECTANGLE",
+                "maxHeight": 480,
+                "minWidth": 960,
+                "maxWidth": 960
+              }
+            ],
+            "type": "ALEXA_PRESENTATION_APL"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
